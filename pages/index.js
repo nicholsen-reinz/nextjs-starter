@@ -12,6 +12,7 @@ const Home = () => (
         return <SmallCard key={project.id} Icon={Icon} title={project.name} slug={project.slug} />;
       })}
     </div>
+    <h1><img src="/auckland.jpg" alt="Vercel Logo" className="logo" /></h1>
   </div>
 );
 
